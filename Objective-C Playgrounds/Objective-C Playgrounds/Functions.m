@@ -19,8 +19,9 @@
     NSLog(@"magic8Ball = %@", [f magic8Ball]);
     
     NSLog(@"Superhero name = %@", [Functions superHeroName:@"Vibha"]);
-    NSLog(@"Value = %f", [Functions calculateBoxVolulmeForLength:3.0 forWidth:4.0 forHeight:5.0]);
-   // NSLog(@"Volume = %f", [Functions calculateBoxVolumeForLength:3.0 width:4.0 height:5.0]);
+    NSLog(@"Value = %f", [Functions calculateBoxVolulmeForLength:3.0
+                                                        forWidth:4.0
+                                                       forHeight:5.0]);
 }
 
 + (NSString*) fortunCookie{

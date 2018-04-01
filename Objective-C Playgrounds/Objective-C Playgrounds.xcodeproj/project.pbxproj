@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A33F7E5207175FB00D36061 /* BankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33F7E4207175FB00D36061 /* BankAccount.m */; };
 		FD80E2771A5C2D8F00287CA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80E2761A5C2D8F00287CA9 /* main.m */; };
 		FD80E27A1A5C2D8F00287CA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80E2791A5C2D8F00287CA9 /* AppDelegate.m */; };
 		FD80E27D1A5C2D8F00287CA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80E27C1A5C2D8F00287CA9 /* ViewController.m */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A33F7E3207175FB00D36061 /* BankAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankAccount.h; sourceTree = "<group>"; };
+		0A33F7E4207175FB00D36061 /* BankAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankAccount.m; sourceTree = "<group>"; };
 		FD80E2711A5C2D8F00287CA9 /* Objective-C Playgrounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C Playgrounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD80E2751A5C2D8F00287CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD80E2761A5C2D8F00287CA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 		FD80E29B1A5C2DB300287CA9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0A33F7E3207175FB00D36061 /* BankAccount.h */,
+				0A33F7E4207175FB00D36061 /* BankAccount.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 				FD80E2AD1A5C42CC00287CA9 /* Classes.m in Sources */,
 				FD80E2B31A5C470500287CA9 /* Enums.m in Sources */,
 				FD80E2A11A5C2DD700287CA9 /* Collections.m in Sources */,
+				0A33F7E5207175FB00D36061 /* BankAccount.m in Sources */,
 				FD80E27A1A5C2D8F00287CA9 /* AppDelegate.m in Sources */,
 				FD80E2A41A5C2DE800287CA9 /* Functions.m in Sources */,
 				FD80E2771A5C2D8F00287CA9 /* main.m in Sources */,
