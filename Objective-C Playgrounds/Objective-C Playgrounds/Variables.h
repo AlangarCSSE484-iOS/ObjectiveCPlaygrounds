@@ -15,9 +15,15 @@
 + (void) run;
 
 // Instance Method
+- (void) exampleInstanceMethod;
 
 
 // Properties
+
+@property (nonatomic, strong) NSNumber* myNumber;
+@property (nonatomic, copy) NSString* myString;
+@property (nonatomic) int myInt;
+
 
 
 @end

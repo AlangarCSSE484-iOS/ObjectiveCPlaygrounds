@@ -18,6 +18,9 @@ NSString* const myConstantStr = @"Hello";
 
 
 // Internal property
+@interface Variables (Internal)
+@property (nonatomic) int myInternalInt;
+@end
 
 
 @implementation Variables
@@ -54,11 +57,25 @@ NSString* const myConstantStr = @"Hello";
     NSLog(@"b = %d y = %ld, z = %f, width = %f" ,
           b, (long)y, z, rect.size.width);
     
-
-
-
     // Properties
+    Variables* instanceObj = [[Variables alloc] init];
+    [instanceObj exampleInstanceMethod];
+    NSLog(@"myNumber = %@ myString = %@, myInt = %d" ,
+          instanceObj.myNumber, instanceObj.myString, instanceObj.myInt);
+    
+    instanceObj.myNumber = @10;
+    instanceObj.myInt = 11;
+    instanceObj.myString = @"Now we're sharing ";
+    
+    NSLog(@"myNumber = %@ myString = %@, myInt = %d" ,
+          instanceObj.myNumber, instanceObj.myString, instanceObj.myInt);
 
 }
 
+- (void) exampleInstanceMethod {
+    self.myNumber = @7;
+    self.myString = @"Saww dude";
+    self.myInt = 8;
+    //self.myInternalInt = 9;
+}
 @end
