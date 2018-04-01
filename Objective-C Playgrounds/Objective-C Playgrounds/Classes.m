@@ -8,6 +8,7 @@
 
 #import "Classes.h"
 #import "BankAccount.h"
+#import "AtmBankAccount.h"
 
 
 @implementation Classes
@@ -24,7 +25,16 @@
 
 
     // Subclass
-
+    
+    AtmBankAccount* steveAccount = [[AtmBankAccount alloc] init];
+    NSLog(@"steveAccount %@", steveAccount);
+    
+    [steveAccount deposit:100];
+    [steveAccount withdraw:10];
+    
+    NSLog(@"steveAccount %@", steveAccount);
+    steveAccount.balance = 500;
+    
 
 
 

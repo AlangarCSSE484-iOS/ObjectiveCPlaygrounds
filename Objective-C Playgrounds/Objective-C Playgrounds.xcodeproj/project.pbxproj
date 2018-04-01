@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A33F7E5207175FB00D36061 /* BankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33F7E4207175FB00D36061 /* BankAccount.m */; };
+		0A33F7E820717B7000D36061 /* AtmBankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33F7E720717B7000D36061 /* AtmBankAccount.m */; };
 		FD80E2771A5C2D8F00287CA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80E2761A5C2D8F00287CA9 /* main.m */; };
 		FD80E27A1A5C2D8F00287CA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80E2791A5C2D8F00287CA9 /* AppDelegate.m */; };
 		FD80E27D1A5C2D8F00287CA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80E27C1A5C2D8F00287CA9 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* Begin PBXFileReference section */
 		0A33F7E3207175FB00D36061 /* BankAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankAccount.h; sourceTree = "<group>"; };
 		0A33F7E4207175FB00D36061 /* BankAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankAccount.m; sourceTree = "<group>"; };
+		0A33F7E620717B7000D36061 /* AtmBankAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtmBankAccount.h; sourceTree = "<group>"; };
+		0A33F7E720717B7000D36061 /* AtmBankAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtmBankAccount.m; sourceTree = "<group>"; };
 		FD80E2711A5C2D8F00287CA9 /* Objective-C Playgrounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C Playgrounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD80E2751A5C2D8F00287CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD80E2761A5C2D8F00287CA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -161,6 +164,8 @@
 			children = (
 				0A33F7E3207175FB00D36061 /* BankAccount.h */,
 				0A33F7E4207175FB00D36061 /* BankAccount.m */,
+				0A33F7E620717B7000D36061 /* AtmBankAccount.h */,
+				0A33F7E720717B7000D36061 /* AtmBankAccount.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A33F7E820717B7000D36061 /* AtmBankAccount.m in Sources */,
 				FD80E27D1A5C2D8F00287CA9 /* ViewController.m in Sources */,
 				FD80E2AD1A5C42CC00287CA9 /* Classes.m in Sources */,
 				FD80E2B31A5C470500287CA9 /* Enums.m in Sources */,
