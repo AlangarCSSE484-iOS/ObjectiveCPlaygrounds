@@ -22,8 +22,8 @@
     //Variables* v = [[Variables alloc] init];
     //v.myInt = 7;
     //[Enums run];
-    [Collections run];
-//    [Functions run];
+    //[Collections run];
+    [Functions run];
 //    [Classes run];
 }
 

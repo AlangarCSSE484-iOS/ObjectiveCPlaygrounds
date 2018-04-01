@@ -12,4 +12,11 @@
 
 + (void) run;
 
++ (NSString*) fortunCookie;
+- (NSString*) magic8Ball;
++ (NSString*) superHeroName: (NSString*) name;
++ (double) calculateBoxVolulmeForLength:(double) length
+                               forWidth:(double) width
+                              forHeight:(double) height;
+
 @end
